@@ -1,0 +1,4 @@
+{
+  "items": [],
+  "note": "File seed kosong. Riwayat pengguna tersimpan per akun di Cloud Firestore; riwayat tamu tersimpan di localStorage browser."
+}

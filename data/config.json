@@ -1,0 +1,185 @@
+{
+  "app": {
+    "name": "CalculatorAPP",
+    "version": "1.0.0",
+    "historyLimit": 50,
+    "defaultAngleMode": "DEG"
+  },
+  "firebase": {
+    "apiKey": "YOUR_FIREBASE_API_KEY",
+    "authDomain": "YOUR_PROJECT_ID.firebaseapp.com",
+    "projectId": "YOUR_PROJECT_ID",
+    "storageBucket": "YOUR_PROJECT_ID.firebasestorage.app",
+    "messagingSenderId": "YOUR_MESSAGING_SENDER_ID",
+    "appId": "YOUR_FIREBASE_APP_ID"
+  },
+  "units": {
+    "length": {
+      "label": "Panjang",
+      "units": [
+        {
+          "value": "m",
+          "label": "Meter",
+          "factor": 1
+        },
+        {
+          "value": "km",
+          "label": "Kilometer",
+          "factor": 1000
+        },
+        {
+          "value": "cm",
+          "label": "Sentimeter",
+          "factor": 0.01
+        },
+        {
+          "value": "mm",
+          "label": "Milimeter",
+          "factor": 0.001
+        },
+        {
+          "value": "mi",
+          "label": "Mil",
+          "factor": 1609.344
+        },
+        {
+          "value": "yd",
+          "label": "Yard",
+          "factor": 0.9144
+        },
+        {
+          "value": "ft",
+          "label": "Kaki",
+          "factor": 0.3048
+        },
+        {
+          "value": "in",
+          "label": "Inci",
+          "factor": 0.0254
+        }
+      ]
+    },
+    "mass": {
+      "label": "Massa / Berat",
+      "units": [
+        {
+          "value": "kg",
+          "label": "Kilogram",
+          "factor": 1
+        },
+        {
+          "value": "g",
+          "label": "Gram",
+          "factor": 0.001
+        },
+        {
+          "value": "mg",
+          "label": "Miligram",
+          "factor": 1e-06
+        },
+        {
+          "value": "lb",
+          "label": "Pound",
+          "factor": 0.45359237
+        },
+        {
+          "value": "oz",
+          "label": "Ounce",
+          "factor": 0.028349523125
+        }
+      ]
+    },
+    "temperature": {
+      "label": "Suhu",
+      "units": [
+        {
+          "value": "c",
+          "label": "Celsius"
+        },
+        {
+          "value": "f",
+          "label": "Fahrenheit"
+        },
+        {
+          "value": "k",
+          "label": "Kelvin"
+        }
+      ]
+    },
+    "volume": {
+      "label": "Volume",
+      "units": [
+        {
+          "value": "l",
+          "label": "Liter",
+          "factor": 1
+        },
+        {
+          "value": "ml",
+          "label": "Mililiter",
+          "factor": 0.001
+        },
+        {
+          "value": "m3",
+          "label": "Meter kubik",
+          "factor": 1000
+        },
+        {
+          "value": "gal",
+          "label": "US gallon",
+          "factor": 3.785411784
+        },
+        {
+          "value": "cup",
+          "label": "US cup",
+          "factor": 0.2365882365
+        }
+      ]
+    },
+    "speed": {
+      "label": "Kecepatan",
+      "units": [
+        {
+          "value": "ms",
+          "label": "Meter/detik",
+          "factor": 1
+        },
+        {
+          "value": "kmh",
+          "label": "Kilometer/jam",
+          "factor": 0.2777777777777778
+        },
+        {
+          "value": "mph",
+          "label": "Mil/jam",
+          "factor": 0.44704
+        }
+      ]
+    },
+    "time": {
+      "label": "Waktu",
+      "units": [
+        {
+          "value": "s",
+          "label": "Detik",
+          "factor": 1
+        },
+        {
+          "value": "min",
+          "label": "Menit",
+          "factor": 60
+        },
+        {
+          "value": "h",
+          "label": "Jam",
+          "factor": 3600
+        },
+        {
+          "value": "day",
+          "label": "Hari",
+          "factor": 86400
+        }
+      ]
+    }
+  }
+}

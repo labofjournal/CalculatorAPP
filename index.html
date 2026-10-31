@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="CalculatorAPP — kalkulator basic, scientific, dan konversi satuan dengan sinkronisasi Firebase.">
+  <title>CalculatorAPP — Smart Calculator</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div data-include="partials/navbar.html"></div>
+  <main class="page-shell">
+    <div data-include="partials/hero.html"></div>
+    <section class="workspace" aria-label="Area kalkulator">
+      <div data-include="partials/tabs.html"></div>
+      <div class="tab-panels">
+        <div data-include="partials/tab-basic.html"></div>
+        <div data-include="partials/tab-scientific.html"></div>
+        <div data-include="partials/tab-units.html"></div>
+      </div>
+    </section>
+    <div data-include="partials/history.html"></div>
+  </main>
+  <div data-include="partials/toast.html"></div>
+  <div data-include="partials/footer.html"></div>
+  <noscript><p class="noscript">CalculatorAPP membutuhkan JavaScript agar dapat digunakan.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
